@@ -1,0 +1,70 @@
+.contact{
+    display: flex;
+    color: white;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 7%;
+}
+#info{
+    width: 45%;
+    justify-content: center;
+    padding-left: 5%;
+
+}
+.social{
+    display: flex;
+    margin-left: 4%;
+}
+.social h3{
+    align-self: center;
+}
+.social img{
+    height: 7%;
+    width: 7%;
+}
+.social-icons{
+    margin-left: 4%;
+}
+.icon{
+    height: 10%;
+    width: 10%;
+}
+.btn{
+    padding: 15px 20px;
+    background-color: rgb(214, 27, 52);
+    border: none;
+    cursor: pointer;
+    border-radius: 8px;
+    color: white;
+    font-size: 1.2rem;
+    margin-top: 10px;
+    margin-left: 18px;
+}
+
+.btn a{
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+.contactform{
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+}
+
+.input{
+    margin: 8px;
+    padding: 10px 25px;
+    border-radius: 8px;
+    border: none;
+    background-color: #343434;
+    color: aliceblue;
+}
+.contactform .btn{
+    width: 30%;
+    align-self: center;
+}
+h1{
+    font-size: 3rem;
+}

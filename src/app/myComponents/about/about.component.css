@@ -1,0 +1,32 @@
+#about{
+    display: flex;
+    gap: 3%;
+    /* border: 1px solid gainsboro; */
+    margin-left: 3%;
+    margin-top: 6%;
+}
+
+.box{
+    width: 30%;
+    height: 400px;
+    background-color: #343434;
+    color: white;
+    border-radius: 5%;
+}
+#about :hover{
+    background-color: rgb(211, 44, 66);
+}
+.center{
+    text-align: center;
+}
+.h-primary{
+    font-size: 2.3rem;
+    font-weight: bolder;
+ 
+}
+.text{
+    font-size: 1.3rem;
+    padding: 3px;
+    margin-top: 7px;
+    font-family: 'Times New Roman', Times, serif;
+}

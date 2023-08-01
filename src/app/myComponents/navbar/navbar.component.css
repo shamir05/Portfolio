@@ -1,0 +1,32 @@
+#navbar{
+    display: flex;
+    margin: 20px;
+    /* border: 1px solid sienna; */
+    justify-content: space-around;
+}
+
+.h-primary{
+    color: white;
+    font-size: 3rem;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+.h-primary span{
+    color: rgb(214, 27, 52);
+}
+
+.navItems{
+    display: flex;
+    align-items: center;
+}
+
+.item{
+    font-size: 1.3rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: white;
+    padding: 5px 15px;
+    list-style: none;
+    text-decoration: none;
+}
+.item:active, :hover{
+    color: rgb(214, 27, 52);
+}
